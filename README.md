@@ -35,21 +35,6 @@ I'm a recent graduate specializing in Data Science and Engineering, passionate a
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-## 📜 Certifications
-
-🏆 IBM Certified Data Engineer - Big Data  
-🏆 Astronomer Apache Airflow Fundamentals  
-🏆 Microsoft Career Essentials in Generative AI  
-🏆 Microsoft Career Essentials in Data Analysis
-
-## 💼 I'm Open To
-
-- 🔍 Data Science & Machine Learning roles
-- 🤖 AI/ML Engineer positions
-- 🧪 Research opportunities in ML/AI
-- 🌍 Volunteering in AI/ML projects
-- 🤝 Collaborating on open-source ML projects
-
 ## 📫 Let's Connect!
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/debya-ahmed-salem-3255122a2)
