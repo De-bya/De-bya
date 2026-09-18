@@ -13,7 +13,7 @@
 [![Email](https://img.shields.io/badge/Email-debyaahmedsalem%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:debyaahmedsalem@gmail.com)
 
 
-📍 Montpellier, France (open to relocating across all of Métropole France) &nbsp;|&nbsp; Looking for a PFE internship in Data / AI
+📍 Montpellier, France (open to relocating across all of Metropolitan France) &nbsp;|&nbsp; Looking for a PFE internship in Data / AI
 
 </div>
 
