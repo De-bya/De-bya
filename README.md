@@ -4,7 +4,7 @@
 
 
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00FF9D&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Debya.;Data+%2F+AI+Engineer;Based+in+France.)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00FF9D&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Debya.;Data+%2F+ML+Engineer;Based+in+France.)
 
 ---
 
@@ -26,7 +26,7 @@ class Debya(DataEngineer, MLEngineer):
     deployed data & AI systems.
     """
     def __init__(self):
-        self.role         = "Data / AI Engineer"
+        self.role         = "Data / ML Engineer"
         self.education    = "M2 Data Science & AI, Univ. of Montpellier"
         self.base         = "France"
         self.looking_for  = "PFE in Data / AI, 2026 – 2027"
@@ -100,9 +100,9 @@ class Debya(DataEngineer, MLEngineer):
 
 | Project | Description | Stack |
 |---|---|---|
-| [**Predictive Maintenance System**](https://github.com/De-bya/predictive-maintenance-tft-pso) | Smart-manufacturing MLOps system that predicts equipment failures from sensor data (96.5% accuracy) via a self-retraining pipeline, plus a knowledge-graph RAG chatbot for technicians | `PyTorch` `FastAPI` `Neo4j` `LangChain` `Docker` |
+| [**Predictive Maintenance System**](https://github.com/De-bya/predictive-maintenance-tft-pso) | Smart-manufacturing MLOps system that predicts equipment failures from sensor data via a self-retraining pipeline, plus a knowledge-graph RAG chatbot for technicians | `PyTorch` `FastAPI` `Neo4j` `LangChain` `Docker` |
 | [**JobFit Agent**](https://github.com/De-bya/jobfit-agent) | RAG application using an LLM to compare resumes against job postings and surface matching, missing, and partial requirements; benchmarked several retrieval/prompting configs before deploying | `Python` `OpenAI API` `Elasticsearch` `PostgreSQL` `Grafana` `Streamlit` |
-| [**SightSense**](https://github.com/debyaahmedsalem/sightsense) | Native Android accessibility app for visually impaired users — money recognition, object recognition, obstacle avoidance, navigation and text reading with voice guidance; fine-tuned YOLOv11 on a self-built, 4,000-image banknote dataset | `Kotlin` `YOLO` `PaddleOCR` `GPT-4o` `Firebase` `FastAPI` |
+| [**SightSense**](https://drive.google.com/file/d/1-sQQ7uDNP34f3CI1joapCOv-itMAEVZ4/view) | Native Android accessibility app for visually impaired users — money recognition, object recognition, obstacle avoidance, navigation and text reading with voice guidance | `Kotlin` `YOLO` `PaddleOCR` `GPT-4o` `Firebase` `FastAPI` |
 
 ---
 
@@ -119,7 +119,7 @@ class Debya(DataEngineer, MLEngineer):
 
 <div align="center">
 
-If you're hiring in France for a **PFE in Data Engineering or AI/ML** , I'd love to connect.
+If you're hiring in France for a **PFE in Data or AI/ML** , I'd love to connect.
 
 [![Let's Connect](https://img.shields.io/badge/Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/)
 
