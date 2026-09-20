@@ -22,8 +22,7 @@
 ```python
 class Debya(DataEngineer, MLEngineer):
     """
-    Engineering graduate turning messy data into working,
-    deployed data & AI systems.
+    Data Engineer turning messy data into AI systems that actually run.
     """
     def __init__(self):
         self.role         = "Data / ML Engineer"
