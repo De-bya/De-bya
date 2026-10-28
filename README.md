@@ -120,6 +120,6 @@ class Debya(DataEngineer, MLEngineer):
 
 If you're hiring in France for a **PFE in Data or AI/ML** , I'd love to connect.
 
-[![Let's Connect](https://img.shields.io/badge/Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/)
+[![Let's Connect](https://img.shields.io/badge/Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/debya-ahmed-salem-3255122a2/)
 
 </div>
