@@ -83,15 +83,21 @@ class Debya(DataEngineer, MLEngineer):
 ## 💼 Experience
 
 **Data & AI Intern** — Levon Studio | Casablanca, Morocco | **Feb 2025 – Jul 2025**
-- Designed and deployed a content-based recommendation engine for a multilingual flashcard app using SBERT embeddings and cosine similarity, served through a serverless **GCP** pipeline (Cloud Functions, BigQuery, Firestore, Cloud Scheduler).
-- Engineered a modular Text-to-Speech pipeline (Coqui TTS) with batch and real-time Pub/Sub triggers, generating pronunciation audio across 7 languages and streaming files to Cloud Storage.
+- Designed and deployed a **content-based recommendation engine** for a language-learning flashcard app, fully serverless on **GCP**: a nightly Cloud Function finds active users in **BigQuery**, encodes profiles and content with **SBERT embeddings**, ranks content by cosine similarity and writes personalized recommendations to **Firestore**, with a fallback for new users (cold start).
+- Built a modular **Text-to-Speech pipeline** (Coqui XTTS v2) generating pronunciation audio in **7 languages**, in batch mode for existing cards and in real time via **Pub/Sub** for new ones.
+- Solved production issues such as memory timeouts (model packaging, lazy loading, batched inference).
+- Worked in **Scrum** with daily stand-ups.
 
 **Data Engineering Intern** — Banque Nationale de Mauritanie (BNM) | Nouakchott, Mauritania | **Jul 2024 – Sep 2024**
-- Designed and built a custom **ETL** application in Django to extract data from MySQL/SQL Server OLTP banking systems, apply cleaning, anonymization and normalization rules, and load it into a centralized **PostgreSQL** data warehouse.
-- Built a flexible scheduling engine (daily, weekly, monthly, custom intervals) with Python's `schedule` library and a Plotly-powered dashboard to monitor ETL run status and history.
+- Designed a self-hosted **banking data warehouse**: incremental replication with **Airbyte** from the core banking system (**SQL Server**) and the mobile app (**MySQL**) into **PostgreSQL**, using read-only accounts.
+- Modeled the data with **dbt** in layers (staging, SCD2 snapshot, **star schema** with 6 dimensions and 4 fact tables), cleaning messy front-office data and deduplicating customers.
+- Built business marts for **credit risk** (days past due, NPL, PAR30/90, provisions), **branch performance** against targets and **digital adoption**.
+- Added **49 data quality tests**, including reconciliation against source systems on 2.1M transactions; role-based access with personal data isolated in a restricted schema.
+- Orchestrated the nightly pipeline with **Airflow** and built **3 Metabase dashboards** (Risk, Finance, Digital), all created as code.
 
 **Data Science Intern** — ANSADE (Agence Nationale de la Statistique et de l'Analyse Démographique et Économique) | Nouakchott, Mauritania | **Jun 2022 – Jul 2022**
-- Analyzed Mauritania's trade balance (2006–2021) in Stata and R, running hypothesis tests (t-test) and PCA / time-series visualizations to compare trade performance across three presidential terms.
+- Analyzed Mauritania's **trade balance (2006–2021)** from quarterly export/import data in **Stata, R and Excel**.
+- Applied **PCA** on exported products, time-series decomposition and **hypothesis tests** (paired t-test, F-test on variances) to compare periods.
 
 ---
 
@@ -99,10 +105,9 @@ class Debya(DataEngineer, MLEngineer):
 
 | Project | Description | Stack |
 |---|---|---|
-| [**Predictive Maintenance System**](https://github.com/De-bya/predictive-maintenance-tft-pso) | Smart-manufacturing MLOps system that predicts equipment failures from sensor data via a self-retraining pipeline, plus a knowledge-graph RAG chatbot for technicians | `PyTorch` `FastAPI` `Neo4j` `LangChain` `Docker` |
-| [**JobFit Agent**](https://github.com/De-bya/jobfit-agent) | RAG application using an LLM to compare resumes against job postings and surface matching, missing, and partial requirements; benchmarked several retrieval/prompting configs before deploying | `Python` `OpenAI API` `Elasticsearch` `PostgreSQL` `Grafana` `Streamlit` |
-| [**SightSense**](https://drive.google.com/file/d/1-sQQ7uDNP34f3CI1joapCOv-itMAEVZ4/view) | Native Android accessibility app for visually impaired users — money recognition, object recognition, obstacle avoidance, navigation and text reading with voice guidance | `Kotlin` `YOLO` `PaddleOCR` `GPT-4o` `Firebase` `FastAPI` |
-
+| [**Food Delivery Pipeline**](https://github.com/De-bya/food-delivery-pipeline) | End-to-end daily data pipeline on **35M rows** of food delivery orders: S3 → Snowflake → dbt (medallion architecture, star schema, incremental models, SCD2, 17 tests), orchestrated by Airflow. An AI layer adds review analysis, a RAG chatbot over customer reviews and text-to-SQL with a SELECT-only guardrail. | `Python` `AWS S3` `Snowflake` `dbt` `Airflow` `Docker` `OpenAI` |
+| [**JobFit Agent**](https://github.com/De-bya/jobfit-agent) | Multi-step **RAG agent** that compares a resume to a job posting requirement by requirement, classifies each gap and suggests improvements without inventing skills. Benchmarked 4 retrieval strategies (hybrid search chosen, Hit Rate 0.72) and monitored with Grafana. | `Python` `OpenAI API` `Elasticsearch` `dlt` `PostgreSQL` `Grafana` `Streamlit` |
+| [**SightSense**](https://drive.google.com/file/d/1-sQQ7uDNP34f3CI1joapCOv-itMAEVZ4/view) | Android app helping visually impaired people with **computer vision**: object and banknote recognition, real-time obstacle alerts and text reading with voice guidance. Fine-tuned **YOLOv11** on a team-built dataset (800 photos augmented to 4,000) and ran it on-device with TensorFlow Lite. | `Kotlin` `Python` `YOLO` `TensorFlow Lite` `Flask` `GPT-4o` |
 ---
 
 ## 🎓 Education
