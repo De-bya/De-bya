@@ -9,7 +9,7 @@
 ---
 
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-debya--ahmed--salem-0A66C2?style=flat-square&logo=linkedin&logoColor=white)]([https://linkedin.com/in/](https://www.linkedin.com/in/debya-ahmed-salem-3255122a2/))
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-debya--ahmed--salem-0A66C2?style=flat-square&logo=linkedin&logoColor=white)]([https://linkedin.com/in/](https://www.linkedin.com/in/debya-ahmed-salem-3255122a2/)
 [![Email](https://img.shields.io/badge/Email-debyaahmedsalem%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:debyaahmedsalem@gmail.com)
 
 
